@@ -1,0 +1,110 @@
+.logo {
+    width: 300px;
+}
+
+header {
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul {
+    float: left;
+    line-height: 40px;
+}
+
+header ul li {
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.main_container {
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 70%;
+    padding-right: 50px;
+}
+
+.left h1 {
+    border-bottom: 3px solid gray;
+    border-left: 5px solid black;
+}
+
+.left h2{ 
+    margin-top:10px;
+    border-left:4px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 20px;
+ }
+ 
+ form{
+     background-color: #fbfbfb;
+     border: 3px #ebebeb solid;
+     border-radius: 10px;
+     width: 100%;
+ }
+ 
+ form div{
+     padding: 15px;
+ }
+ 
+ .text,textarea,.dropdown{
+     border: 1px solid #dfdfdf;
+     padding: 5px;
+     color: #999;
+     background: #fff;
+ }
+ 
+ .submit{
+     border: 1px solid lightgray;
+     padding: 4px 10px;
+     color: white;
+     background-color: #bfbfbf;
+     border-radius: 5px;
+     border-bottom: solid 2px gray;
+ }
+
+ .box1{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:  #fbfbfb;
+    font-size: 15px;
+    text-align: left;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+}
+
+.kiji{
+    text-align: left;
+}
+
+.right {
+    float: left;
+    width: 25%;
+}
+
+.right h2 {
+    border-bottom: 1px dotted black;
+}
+
+footer {
+    clear: left;
+    margin-top: 60px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
